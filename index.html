@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лера - Мастер маникюра</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h1>Валерия</h1>
+                <span class="nav-subtitle">Мастер маникюра</span>
+                <a href="tel:+79385286589" class="nav-phone">+7 (938) 528-65-89</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about">О мастере</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#portfolio">Портфолио</a></li>
+                <li><a href="#contact">Запись</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2>Профессиональный маникюр<br>в уютной атмосфере</h2>
+                <p>Специализируюсь на гель-лаках и моделировании гелем.<br>Минималистичный стиль, качественные материалы.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Записаться</a>
+                    <a href="#portfolio" class="btn btn-secondary">Посмотреть работы</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="master-photo-container">
+                    <img src="images/master/master.jpg" alt="Валерия - Мастер маникюра" class="master-photo">
+                    <div class="floating-shapes">
+                        <div class="shape shape-1"></div>
+                        <div class="shape shape-2"></div>
+                        <div class="shape shape-3"></div>
+                        <div class="shape shape-4"></div>
+                        <div class="shape shape-5"></div>
+                    </div>
+                </div>
+                <div class="works-carousel" id="worksCarousel">
+                    <div class="carousel-track" id="carouselTrack">
+                        <img src="images/works/29118710-e72c-4930-b6ef-467ca830a24c.jpeg" alt="Работа мастера" class="carousel-item" data-portfolio="portfolio">
+                        <img src="images/works/2c285340-23ff-4f3b-b486-eb9e960679f8.jpeg" alt="Работа мастера" class="carousel-item" data-portfolio="portfolio">
+                        <img src="images/works/3c17dc36-f294-4aee-94cd-d71c3006bfda.jpeg" alt="Работа мастера" class="carousel-item" data-portfolio="portfolio">
+                        <img src="images/works/3fdfcfc5-242c-460d-b506-2713db8fb736.jpeg" alt="Работа мастера" class="carousel-item" data-portfolio="portfolio">
+                        <img src="images/works/5b85d6d7-af0c-47a3-afd5-a2c325f69311.jpeg" alt="Работа мастера" class="carousel-item" data-portfolio="portfolio">
+                        <img src="images/works/603f2609-5482-4ed5-94f5-85cd96e4f857.jpeg" alt="Работа мастера" class="carousel-item" data-portfolio="portfolio">
+                        <img src="images/works/a6e23722-78b5-4f03-8ae4-458f1489a4cd.jpeg" alt="Работа мастера" class="carousel-item" data-portfolio="portfolio">
+                        <img src="images/works/afbb1f3d-8bec-4870-854a-88ef144539a3.jpeg" alt="Работа мастера" class="carousel-item" data-portfolio="portfolio">
+                        <img src="images/works/d996f0de-bf43-4866-9afd-105539ea0cd6.jpeg" alt="Работа мастера" class="carousel-item" data-portfolio="portfolio">
+                        <img src="images/works/fa4e4e15-fa87-4a6d-a9e5-6bbb5e94334f.jpeg" alt="Работа мастера" class="carousel-item" data-portfolio="portfolio">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>О мастере</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Занимаюсь маникюром уже полтора года. Вдохновила меня моя мастерица, у которой я долгое время делала ногти.</p>
+                    <p>Специализируюсь на работе с гель-лаками и гелями, использую качественные материалы от Pink House, Wow Nail, Runail.</p>
+                    <p>Мой стиль - минимализм и нюд. Люблю однотонные покрытия и втирку. Работаю в основном с ровесницами (16-20 лет), но принимаю клиенток любого возраста.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <span class="stat-number">1.5</span>
+                        <span class="stat-label">года опыта</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">2-4</span>
+                        <span class="stat-label">часа на процедуру</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">качество</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Услуги и цены</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Коррекция</h3>
+                    <p>Снятие старого покрытия, обработка кутикулы, опил, покрытие цветом</p>
+                    <div class="service-price">1000₽</div>
+                    <div class="service-time">2-3 часа</div>
+                </div>
+                <div class="service-card featured">
+                    <h3>Наращивание</h3>
+                    <p>Моделирование гелем на верхние формы, обработка кутикулы, покрытие цветом, дизайн</p>
+                    <div class="service-price">1300₽</div>
+                    <div class="service-time">3-4 часа</div>
+                </div>
+            </div>
+            <div class="services-note">
+                <p>💡 Если принесете свой материал (гель-лак), вычту его стоимость из общей суммы</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Мои работы</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="images/works/2c285340-23ff-4f3b-b486-eb9e960679f8.jpeg" alt="Работа мастера">
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/works/3c17dc36-f294-4aee-94cd-d71c3006bfda.jpeg" alt="Работа мастера">
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/works/3fdfcfc5-242c-460d-b506-2713db8fb736.jpeg" alt="Работа мастера">
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/works/5b85d6d7-af0c-47a3-afd5-a2c325f69311.jpeg" alt="Работа мастера">
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/works/603f2609-5482-4ed5-94f5-85cd96e4f857.jpeg" alt="Работа мастера">
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/works/a6e23722-78b5-4f03-8ae4-458f1489a4cd.jpeg" alt="Работа мастера">
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/works/afbb1f3d-8bec-4870-854a-88ef144539a3.jpeg" alt="Работа мастера">
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/works/d996f0de-bf43-4866-9afd-105539ea0cd6.jpeg" alt="Работа мастера">
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/works/fa4e4e15-fa87-4a6d-a9e5-6bbb5e94334f.jpeg" alt="Работа мастера">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Записаться на процедуру</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Контакты</h3>
+                    <p>Работаю дома в уютной атмосфере</p>
+                    <p><strong>Адрес:</strong> г. Ейск, ул. Герцена, 88/5</p>
+                    <p><strong>Телефон:</strong> <a href="tel:+79385286589">+7 (938) 528-65-89</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:ms.valeriak@mail.ru">ms.valeriak@mail.ru</a></p>
+                    <div class="contact-methods">
+                        <a href="https://t.me/vnzwgn" class="contact-btn telegram">Telegram</a>
+                        <a href="https://wa.me/79385286589" class="contact-btn whatsapp">WhatsApp</a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <input type="text" placeholder="Ваше имя" required>
+                        <input type="tel" placeholder="Телефон" required>
+                        <select required>
+                            <option value="">Выберите услугу</option>
+                            <option value="correction">Коррекция - 1000₽</option>
+                            <option value="extension">Наращивание - 1300₽</option>
+                        </select>
+                        <textarea placeholder="Дополнительные пожелания"></textarea>
+                        <div class="booking-notice">
+                            <p>⚠️ <strong>Важно:</strong> Все даты и время записи обговариваются лично с мастером</p>
+                        </div>
+                        <div class="form-buttons">
+                            <button type="submit" class="btn btn-primary">Отправить в WhatsApp</button>
+                            <button type="button" class="btn btn-secondary" onclick="sendEmail()">Отправить на Email</button>
+                            <button type="button" class="btn btn-telegram" onclick="sendTelegram()">Отправить в Telegram</button>
+                        </div>
+                        <div class="form-notes">
+                            <div class="note-item">
+                                <p>💚 <strong>WhatsApp:</strong> Откроется чат с Валерией с готовым сообщением</p>
+                            </div>
+                            <div class="note-item">
+                                <p>📧 <strong>Email:</strong> Откроется Gmail с готовым письмом</p>
+                            </div>
+                            <div class="note-item">
+                                <p>💙 <strong>Telegram:</strong> Откроется чат с Валерией с готовым сообщением</p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Лера - Мастер маникюра. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
